@@ -40,7 +40,7 @@ export default function ProjectShowcase() {
       title: "Zerodha",
       description:
         "This is a Zerodha-like stock trading platform built with React, MongoDB, Shadcn UI, and Material-UI. It allows users to invest, track, and manage stocks efficiently, with interactive graphs and real-time data for informed trading decisions. The platform delivers a modern, responsive interface for end-to-end stock portfolio management",
-      image: "/assets/Zerodha.png",
+      image: "/assets/zerodha.png",
       codeUrl: "https://github.com/nobita0918/zerodha",
       tags: [
         "Html",
