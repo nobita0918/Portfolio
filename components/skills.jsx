@@ -106,7 +106,7 @@ export default function Skills() {
               {/* ICON */}
               <Icon
                 className={`
-                  text-2xl transition-all duration-300
+                  text-3xl transition-all duration-300
                   ${isActive ? skill.color : "text-white/70"}
                   ${hoverColors[skill.key]}
                   ${isActive ? "-translate-y-2" : "group-hover:-translate-y-2"}
