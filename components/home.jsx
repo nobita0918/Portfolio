@@ -10,12 +10,12 @@ export default function Home() {
           w-full max-w-7xl 
           grid grid-cols-1 md:grid-cols-2 
           gap-10 md:gap-10 
-          px-2 md:px-2
+          px-3 md:px-2
         "
       >
         {/* Text Section */}
         <div className=" pt-10 md:pt-20 text-lg md:text-md font-serif leading-relaxed">
-          <h2 className="text-3xl md:text-4xl text-semibold  mb-5">
+          <h2 className="text-3xl md:text-4xl font-semibold  mb-5">
             Hi, I'm Anurag Sharma 👋
           </h2>
 
@@ -35,7 +35,7 @@ export default function Home() {
         </div>
 
         {/* Spline Section */}
-        <div className="w-full h-[300px] md:h-[400px]">
+        <div className="hidden md:block w-full h-[300px] md:h-[400px]">
           <div className="w-full h-full rounded-xl overflow-hidden">
             <Spline scene="https://prod.spline.design/TEYA4fdijnGbwXWp/scene.splinecode" />
           </div>

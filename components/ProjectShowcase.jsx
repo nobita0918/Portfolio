@@ -50,12 +50,12 @@ export default function ProjectShowcase() {
   };
 
   return (
-    <section className="w-full py-10 px-9 flex flex-col items-center">
-      <div className="w-12/12 lg:w-11/12 mb-16">
-        <h1 className="text-3xl  font-semibold">Code & Creations</h1>
+    <section className="w-full py-10 px-6 flex flex-col items-center">
+      <div className="w-11/12 lg:w-11/12 mb-5">
+        <h2 className="text-3xl font-semibold mb-7">Code & Creation</h2>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-16 w-12/12 lg:w-11/12">
+      <div className="grid md:grid-cols-2 gap-16 w-11/12 lg:w-11/12">
         {projects.map((p, index) => {
           const isActive = activeIndex === index;
 

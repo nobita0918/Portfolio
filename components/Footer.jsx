@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-full py-14 mt-20 bg-transparent">
+    <footer className="w-full py-5 mt-20 bg-transparent">
       <div className="max-w-6xl mx-auto px-6 text-center flex flex-col gap-3">
         <h2 className="text-3xl font-bold tracking-wider text-white">
           Let’s Build Something Exceptional
