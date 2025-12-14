@@ -26,7 +26,7 @@ const Contact = () => {
 
       {/* GitHub */}
       <a
-        href="https://github.com/nobita0918"
+        href="https://github.com/anuragsharma0918"
         target="_blank"
         className="flex h-14 w-14 items-center justify-center rounded-2xl border border-white/20
                bg-white/5 backdrop-blur-sm transition-all duration-300 hover:bg-white/10
