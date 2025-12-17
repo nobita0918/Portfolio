@@ -57,6 +57,23 @@ export default function ProjectShowcase() {
         "Ejs",
       ],
     },
+    {
+      title: "Carrt_X",
+      description:
+        "Carrt X is a modern MERN stack shopping list application designed to streamline grocery shopping with a professional, glassmorphism-styled UI. It separates concerns between a React frontend and an Express backend.",
+      image: "/assets/cart_X.png",
+      codeUrl: "https://github.com/anuragsharma0918/carrt_x",
+      tags: [
+        "CSS",
+        "JavaScript",
+        "Express",
+        "MongoDB",
+        "React",
+        "JWt",
+        "Bcrypt",
+        "Node.js",
+      ],
+    },
   ];
 
   const [activeIndex, setActiveIndex] = useState(null);
